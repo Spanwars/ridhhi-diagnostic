@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="750" viewBox="0 0 600 750" role="img" aria-labelledby="title desc">
+  <title id="title">Placeholder doctor portrait</title>
+  <desc id="desc">Generic doctor illustration placeholder for replacement.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#edf9f3"/>
+      <stop offset="100%" stop-color="#d6f0e2"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="750" fill="url(#bg)"/>
+  <circle cx="300" cy="250" r="110" fill="#91c6a9"/>
+  <rect x="170" y="360" width="260" height="260" rx="40" fill="#ffffff"/>
+  <rect x="235" y="375" width="130" height="30" rx="15" fill="#e6f7ed"/>
+  <text x="300" y="680" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="32" fill="#2d6a4f">Dr. Rajesh Placeholder</text>
+</svg>

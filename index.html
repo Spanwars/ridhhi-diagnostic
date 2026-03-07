@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ridhhi Diagnostic & Dental Center | Jaipur</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container nav-wrap">
+        <a class="brand" href="#home">
+          <span class="brand-mark" aria-hidden="true">+</span>
+          <span>
+            <strong>Ridhhi Diagnostic & Dental Center</strong>
+            <small>Jaipur</small>
+          </span>
+        </a>
+        <nav class="primary-nav" aria-label="Primary">
+          <a href="#doctors">Doctors</a>
+          <a href="#services">Services</a>
+          <a href="#contact">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="home">
+      <section class="hero">
+        <div class="container hero-grid">
+          <div>
+            <p class="eyebrow">Compassionate care under one roof</p>
+            <h1>Your trusted center for diagnostics and dental wellness.</h1>
+            <p class="lead">
+              A family-led clinic with two dedicated experts. Select a doctor below to book directly on WhatsApp.
+            </p>
+            <div class="hero-actions">
+              <a class="btn btn-primary" href="#doctors">Choose Doctor</a>
+              <a class="btn btn-ghost" href="#services">Explore Services</a>
+            </div>
+          </div>
+          <aside class="trust-card" aria-label="Why patients trust us">
+            <h2>Why families trust us</h2>
+            <ul>
+              <li>Patient-first, transparent guidance</li>
+              <li>Modern diagnostic and dental setup</li>
+              <li>Separate specialist consultations</li>
+              <li>Easy WhatsApp booking support</li>
+            </ul>
+          </aside>
+        </div>
+      </section>
+
+      <section id="doctors" class="doctor-tabs-section">
+        <div class="container">
+          <h2>Meet Our Specialists</h2>
+          <p class="section-subtitle">
+            Two specialists, one trusted center. Use the large tabs to switch between profiles.
+          </p>
+
+          <div class="tab-controls" role="tablist" aria-label="Doctor Profiles">
+            <button class="tab-btn active" id="tab-indra" role="tab" aria-controls="panel-indra" aria-selected="true" data-target="indra">
+              Dr. Indra Solanki
+              <small>Radiologist & Diagnostics</small>
+            </button>
+            <button class="tab-btn" id="tab-rajesh" role="tab" aria-controls="panel-rajesh" aria-selected="false" data-target="rajesh">
+              Dr. Rajesh Solanki
+              <small>Dental Surgeon</small>
+            </button>
+          </div>
+
+          <article class="doctor-panel active" id="panel-indra" role="tabpanel" aria-labelledby="tab-indra" data-panel="indra">
+            <div class="doctor-layout">
+              <img src="assets/images/doctor-indra-placeholder.svg" alt="Placeholder portrait for Dr. Indra Solanki" />
+              <div>
+                <h3>Dr. Indra Solanki</h3>
+                <p class="doctor-title">Radiologist • Diagnostic Specialist</p>
+                <p>
+                  Dr. Indra leads the diagnostic wing with a focus on accurate imaging, gentle patient care, and clear reporting.
+                </p>
+                <!-- Replace this paragraph with personal biography, qualifications, and years of experience. -->
+                <p>
+                  She works closely with referring physicians and guides patients through each test with clarity and empathy.
+                </p>
+                <h4>Diagnostic Services</h4>
+                <ul class="service-list">
+                  <li>Ultrasound / Sonography</li>
+                  <li>Colour Doppler</li>
+                  <li>3D / 4D imaging</li>
+                  <li>Digital X-Ray</li>
+                  <li>ECG and pathology tests</li>
+                  <li>Diagnostic consultation</li>
+                </ul>
+                <a class="btn btn-whatsapp" href="https://wa.me/919999999901?text=Hello%20Dr.%20Indra%20Solanki%2C%20I%20would%20like%20to%20book%20a%20diagnostic%20appointment." target="_blank" rel="noopener noreferrer">
+                  Book with Dr. Indra on WhatsApp
+                </a>
+                <!-- Update the WhatsApp number and prefilled text in href above. -->
+              </div>
+            </div>
+          </article>
+
+          <article class="doctor-panel" id="panel-rajesh" role="tabpanel" aria-labelledby="tab-rajesh" data-panel="rajesh">
+            <div class="doctor-layout">
+              <img src="assets/images/doctor-rajesh-placeholder.svg" alt="Placeholder portrait for Dr. Rajesh Solanki" />
+              <div>
+                <h3>Dr. Rajesh Solanki</h3>
+                <p class="doctor-title">Dental Surgeon</p>
+                <p>
+                  Dr. Rajesh manages the dental care wing with a preventive, painless, and wellness-focused approach.
+                </p>
+                <!-- Add specific dental treatments, credentials, and patient success stories here. -->
+                <p>
+                  From consultation to follow-up, he ensures each patient receives complete attention and practical oral health guidance.
+                </p>
+                <h4>Dental Care Focus</h4>
+                <ul class="service-list">
+                  <li>General dental consultation</li>
+                  <li>Preventive oral care plans</li>
+                  <li>Tooth pain and gum assessments</li>
+                  <li>Smile and hygiene guidance</li>
+                </ul>
+                <a class="btn btn-whatsapp" href="https://wa.me/919999999902?text=Hello%20Dr.%20Rajesh%20Solanki%2C%20I%20would%20like%20to%20book%20a%20dental%20appointment." target="_blank" rel="noopener noreferrer">
+                  Book with Dr. Rajesh on WhatsApp
+                </a>
+                <!-- Update the WhatsApp number and prefilled text in href above. -->
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section id="services" class="services-section">
+        <div class="container">
+          <h2>Core Diagnostic Services</h2>
+          <div class="services-grid">
+            <article class="service-card"><h3>Ultrasound / Sonography</h3></article>
+            <article class="service-card"><h3>Colour Doppler</h3></article>
+            <article class="service-card"><h3>3D / 4D imaging</h3></article>
+            <article class="service-card"><h3>Digital X-Ray</h3></article>
+            <article class="service-card"><h3>ECG and pathology tests</h3></article>
+            <article class="service-card"><h3>Diagnostic consultation</h3></article>
+          </div>
+          <!-- Add pricing, packages, and reports turnaround time in this section if needed. -->
+        </div>
+      </section>
+    </main>
+
+    <footer id="contact" class="site-footer">
+      <div class="container footer-grid">
+        <div>
+          <h2>Ridhhi Diagnostic & Dental Center</h2>
+          <p>Jaipur, Rajasthan</p>
+          <!-- Add full address, map link, clinic timings, and emergency number here. -->
+        </div>
+        <div class="footer-actions">
+          <a class="btn btn-whatsapp" href="https://wa.me/919999999901?text=Hello%20Dr.%20Indra%20Solanki%2C%20I%20need%20help%20with%20diagnostics." target="_blank" rel="noopener noreferrer">WhatsApp Dr. Indra</a>
+          <a class="btn btn-whatsapp" href="https://wa.me/919999999902?text=Hello%20Dr.%20Rajesh%20Solanki%2C%20I%20need%20help%20with%20dental%20care." target="_blank" rel="noopener noreferrer">WhatsApp Dr. Rajesh</a>
+        </div>
+      </div>
+    </footer>
+
+    <div class="floating-whatsapp" aria-label="Quick WhatsApp Contact">
+      <a href="https://wa.me/919999999901?text=Hello%20Dr.%20Indra%20Solanki%2C%20I%20would%20like%20to%20book%20a%20diagnostic%20appointment." target="_blank" rel="noopener noreferrer">Dr. Indra</a>
+      <a href="https://wa.me/919999999902?text=Hello%20Dr.%20Rajesh%20Solanki%2C%20I%20would%20like%20to%20book%20a%20dental%20appointment." target="_blank" rel="noopener noreferrer">Dr. Rajesh</a>
+    </div>
+
+    <script src="js/main.js"></script>
+  </body>
+</html>
