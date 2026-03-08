@@ -16,7 +16,7 @@
     <header class="site-header">
       <div class="container nav-wrap">
         <a class="brand" href="#home">
-          <span class="brand-mark" aria-hidden="true">+</span>
+          <span class="brand-mark" aria-hidden="true">✚</span>
           <span>
             <strong>Ridhhi Diagnostic & Dental Center</strong>
             <small>Jaipur</small>
@@ -136,8 +136,9 @@
 
       <section id="services" class="services-section">
         <div class="container">
-          <h2>Core Diagnostic Services</h2>
-          <div class="services-grid">
+          <h2 id="services-heading">Core Diagnostic Services</h2>
+          <p id="services-subtitle" class="section-subtitle">Currently showing Dr. Indra Solanki's services.</p>
+          <div id="services-diagnostic" class="services-grid doctor-services active" data-services="indra">
             <article class="service-card"><h3>Ultrasound / Sonography</h3></article>
             <article class="service-card"><h3>Colour Doppler</h3></article>
             <article class="service-card"><h3>3D / 4D imaging</h3></article>
@@ -145,7 +146,49 @@
             <article class="service-card"><h3>ECG and pathology tests</h3></article>
             <article class="service-card"><h3>Diagnostic consultation</h3></article>
           </div>
+          <div id="services-dental" class="services-grid doctor-services" data-services="rajesh">
+            <article class="service-card"><h3>General Dental Consultation</h3></article>
+            <article class="service-card"><h3>Toothache & Sensitivity Evaluation</h3></article>
+            <article class="service-card"><h3>Gum Health Check-up</h3></article>
+            <article class="service-card"><h3>Professional Teeth Cleaning</h3></article>
+            <article class="service-card"><h3>Restorative Fillings</h3></article>
+            <article class="service-card"><h3>Preventive Oral Care Planning</h3></article>
+          </div>
           <!-- Add pricing, packages, and reports turnaround time in this section if needed. -->
+        </div>
+      </section>
+
+      <section class="technique-gallery-section">
+        <div class="container">
+          <h2>Diagnostic Techniques Gallery</h2>
+          <p class="section-subtitle">Placeholder thumbnails are shown below. Replace each with real machine photos when available.</p>
+          <!-- To replace an image, update the src path in each .technique-card img below. -->
+          <div class="technique-gallery-grid">
+            <article class="technique-card">
+              <img src="assets/images/machines/ultrasound.svg" alt="Ultrasound machine placeholder thumbnail" loading="lazy" />
+              <h3>Ultrasound / Sonography</h3>
+            </article>
+            <article class="technique-card">
+              <img src="assets/images/machines/doppler.svg" alt="Colour Doppler machine placeholder thumbnail" loading="lazy" />
+              <h3>Colour Doppler</h3>
+            </article>
+            <article class="technique-card">
+              <img src="assets/images/machines/imaging-3d-4d.svg" alt="3D 4D imaging machine placeholder thumbnail" loading="lazy" />
+              <h3>3D / 4D Imaging</h3>
+            </article>
+            <article class="technique-card">
+              <img src="assets/images/machines/digital-xray.svg" alt="Digital X-Ray machine placeholder thumbnail" loading="lazy" />
+              <h3>Digital X-Ray</h3>
+            </article>
+            <article class="technique-card">
+              <img src="assets/images/machines/ecg-pathology.svg" alt="ECG and pathology setup placeholder thumbnail" loading="lazy" />
+              <h3>ECG & Pathology</h3>
+            </article>
+            <article class="technique-card">
+              <img src="assets/images/machines/consultation.svg" alt="Diagnostic consultation room placeholder thumbnail" loading="lazy" />
+              <h3>Diagnostic Consultation</h3>
+            </article>
+          </div>
         </div>
       </section>
     </main>
