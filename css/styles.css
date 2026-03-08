@@ -150,6 +150,38 @@ h1 {
   padding: 3rem 0;
 }
 
+.technique-gallery-section {
+  padding: 2.5rem 0 3.2rem;
+}
+
+.technique-gallery-grid {
+  margin-top: 1rem;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+}
+
+.technique-card {
+  background: white;
+  border: 1px solid var(--border);
+  border-radius: 0.9rem;
+  overflow: hidden;
+  box-shadow: var(--shadow);
+}
+
+.technique-card img {
+  width: 100%;
+  aspect-ratio: 16 / 10;
+  object-fit: cover;
+  display: block;
+}
+
+.technique-card h3 {
+  margin: 0;
+  padding: 0.85rem 1rem 1rem;
+  font-size: 1rem;
+}
+
 .section-subtitle {
   color: var(--muted);
 }
@@ -279,6 +311,10 @@ h1 {
   .doctor-layout,
   .footer-grid,
   .services-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .technique-gallery-grid {
     grid-template-columns: 1fr;
   }
 
