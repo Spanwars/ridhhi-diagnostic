@@ -1,13 +1,13 @@
 :root {
-  --bg: #f4fbfd;
+  --bg: #fff5f5;
   --surface: #ffffff;
-  --text: #163047;
-  --muted: #567084;
-  --primary: #118ab2;
-  --primary-dark: #0c6f91;
-  --accent: #28a745;
-  --border: #d8e8ef;
-  --shadow: 0 12px 28px rgba(17, 138, 178, 0.14);
+  --text: #3a1212;
+  --muted: #7b4d4d;
+  --primary: #c81d25;
+  --primary-dark: #921318;
+  --accent: #a3161b;
+  --border: #f0d6d6;
+  --shadow: 0 12px 28px rgba(200, 29, 37, 0.14);
 }
 
 * {
@@ -18,7 +18,7 @@ body {
   margin: 0;
   font-family: "Inter", sans-serif;
   color: var(--text);
-  background: linear-gradient(180deg, #eff9fc 0%, #f8fdff 70%);
+  background: linear-gradient(180deg, #fff4f4 0%, #ffffff 72%);
   line-height: 1.6;
 }
 
@@ -60,12 +60,14 @@ body {
 .brand-mark {
   width: 2rem;
   height: 2rem;
-  border-radius: 999px;
-  background: var(--primary);
-  color: white;
+  border-radius: 0.45rem;
+  background: #ffffff;
+  color: var(--primary);
+  border: 2px solid var(--primary);
   display: inline-grid;
   place-items: center;
-  font-weight: 800;
+  font-weight: 900;
+  font-size: 1.1rem;
 }
 
 .primary-nav a {
@@ -214,7 +216,7 @@ h1 {
 
 .tab-btn.active {
   border-color: var(--primary);
-  background: #edf8fb;
+  background: #fff1f1;
 }
 
 .doctor-panel {
@@ -278,7 +280,7 @@ h1 {
 
 .site-footer {
   border-top: 1px solid var(--border);
-  background: #eaf6fb;
+  background: #fff3f3;
 }
 
 .footer-grid {
@@ -303,7 +305,7 @@ h1 {
   font-weight: 700;
   padding: 0.65rem 0.9rem;
   border-radius: 999px;
-  box-shadow: 0 10px 20px rgba(40, 167, 69, 0.25);
+  box-shadow: 0 10px 20px rgba(200, 29, 37, 0.25);
 }
 
 @media (max-width: 900px) {
