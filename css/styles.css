@@ -136,6 +136,15 @@ h1 {
 .btn-whatsapp {
   background: var(--accent);
   color: white;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.wa-icon {
+  width: 1.1em;
+  height: 1.1em;
+  flex-shrink: 0;
 }
 
 .trust-card {
