@@ -1,8 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="640" height="420" viewBox="0 0 640 420" role="img" aria-labelledby="title">
-  <title>ECG and pathology placeholder</title>
-  <rect width="640" height="420" fill="#edf8fb"/>
-  <rect x="110" y="75" width="280" height="180" rx="14" fill="#8fc2d7"/>
-  <rect x="138" y="103" width="224" height="124" rx="9" fill="#1d4458"/>
-  <polyline points="150,180 185,180 205,150 225,210 248,130 270,190 295,170 350,170" fill="none" stroke="#56e39f" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
-  <text x="320" y="388" text-anchor="middle" font-family="Arial" font-size="28" fill="#1d4255">ECG & Pathology Tests</text>
-</svg>
