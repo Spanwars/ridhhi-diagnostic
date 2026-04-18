@@ -111,6 +111,7 @@ h1 {
   display: flex;
   gap: 0.8rem;
   flex-wrap: wrap;
+  align-items: flex-start;
   margin-top: 1.4rem;
 }
 
@@ -134,11 +135,17 @@ h1 {
 }
 
 .btn-whatsapp {
-  background: var(--accent);
+  background: #25D366;
   color: white;
   display: inline-flex;
   align-items: center;
   gap: 0.5rem;
+  transition: background 0.15s ease;
+}
+
+.btn-whatsapp:hover,
+.btn-whatsapp:focus-visible {
+  background: #128C7E;
 }
 
 .wa-icon {
@@ -309,12 +316,18 @@ h1 {
 
 .floating-whatsapp a {
   text-decoration: none;
-  background: var(--accent);
+  background: #25D366;
   color: white;
   font-weight: 700;
   padding: 0.65rem 0.9rem;
   border-radius: 999px;
-  box-shadow: 0 10px 20px rgba(200, 29, 37, 0.25);
+  box-shadow: 0 10px 20px rgba(37, 211, 102, 0.35);
+  transition: background 0.15s ease;
+}
+
+.floating-whatsapp a:hover,
+.floating-whatsapp a:focus-visible {
+  background: #128C7E;
 }
 
 @media (max-width: 900px) {
